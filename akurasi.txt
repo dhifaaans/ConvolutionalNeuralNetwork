@@ -1,0 +1,2127 @@
+WARNING:tensorflow:From <ipython-input-1-5f2a714e9852>:6: read_data_sets (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:260: maybe_download (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please write your own downloading logic.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py:252: _internal_retry.<locals>.wrap.<locals>.wrapped_fn (from tensorflow.contrib.learn.python.learn.datasets.base) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use urllib or similar directly.
+Successfully downloaded train-images-idx3-ubyte.gz 9912422 bytes.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:262: extract_images (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting /tmp/data/train-images-idx3-ubyte.gz
+Successfully downloaded train-labels-idx1-ubyte.gz 28881 bytes.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:267: extract_labels (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use tf.data to implement this functionality.
+Extracting /tmp/data/train-labels-idx1-ubyte.gz
+Successfully downloaded t10k-images-idx3-ubyte.gz 1648877 bytes.
+Extracting /tmp/data/t10k-images-idx3-ubyte.gz
+Successfully downloaded t10k-labels-idx1-ubyte.gz 4542 bytes.
+Extracting /tmp/data/t10k-labels-idx1-ubyte.gz
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py:290: DataSet.__init__ (from tensorflow.contrib.learn.python.learn.datasets.mnist) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use alternatives such as official/mnist/dataset.py from tensorflow/models.
+INFO:tensorflow:Using default config.
+WARNING:tensorflow:Using temporary folder as model directory: /tmp/tmpsapex9g2
+INFO:tensorflow:Using config: {'_model_dir': '/tmp/tmpsapex9g2', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': None, '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7faf15a2e4e0>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 1 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 2.3186197, step = 0
+INFO:tensorflow:Loss for final step: 2.3186197.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:15
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-1
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:16
+INFO:tensorflow:Saving dict for global step 1: accuracy = 0.0958, global_step = 1, loss = 2.3627965
+Akurasi: 9.57999974489212%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-1
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 2 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 2.3097615, step = 1
+INFO:tensorflow:Loss for final step: 2.3097615.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:17
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-2
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:18
+INFO:tensorflow:Saving dict for global step 2: accuracy = 0.3012, global_step = 2, loss = 2.1285326
+Akurasi: 30.12000024318695%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-2
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 3 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 2.0633855, step = 2
+INFO:tensorflow:Loss for final step: 2.0633855.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:20
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-3
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:20
+INFO:tensorflow:Saving dict for global step 3: accuracy = 0.4611, global_step = 3, loss = 1.9410132
+Akurasi: 46.11000120639801%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-3
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 4 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 1.9617882, step = 3
+INFO:tensorflow:Loss for final step: 1.9617882.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:22
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-4
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:23
+INFO:tensorflow:Saving dict for global step 4: accuracy = 0.6823, global_step = 4, loss = 1.7609551
+Akurasi: 68.22999715805054%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-4
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 5 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 1.8082767, step = 4
+INFO:tensorflow:Loss for final step: 1.8082767.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:24
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-5
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:25
+INFO:tensorflow:Saving dict for global step 5: accuracy = 0.7363, global_step = 5, loss = 1.5893508
+Akurasi: 73.6299991607666%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-5
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 6 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 1.5727179, step = 5
+INFO:tensorflow:Loss for final step: 1.5727179.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:27
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-6
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:27
+INFO:tensorflow:Saving dict for global step 6: accuracy = 0.7328, global_step = 6, loss = 1.4115713
+Akurasi: 73.28000068664551%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-6
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 7 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 1.4605188, step = 6
+INFO:tensorflow:Loss for final step: 1.4605188.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:29
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-7
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:30
+INFO:tensorflow:Saving dict for global step 7: accuracy = 0.7102, global_step = 7, loss = 1.231716
+Akurasi: 71.02000117301941%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-7
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 8 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 1.2951105, step = 7
+INFO:tensorflow:Loss for final step: 1.2951105.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:31
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-8
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:32
+INFO:tensorflow:Saving dict for global step 8: accuracy = 0.7115, global_step = 8, loss = 1.0444866
+Akurasi: 71.14999890327454%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-8
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 9 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 1.1250293, step = 8
+INFO:tensorflow:Loss for final step: 1.1250293.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:34
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-9
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:34
+INFO:tensorflow:Saving dict for global step 9: accuracy = 0.7774, global_step = 9, loss = 0.85287756
+Akurasi: 77.7400016784668%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-9
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 10 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.93332934, step = 9
+INFO:tensorflow:Loss for final step: 0.93332934.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:36
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-10
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:37
+INFO:tensorflow:Saving dict for global step 10: accuracy = 0.8031, global_step = 10, loss = 0.72762746
+Akurasi: 80.30999898910522%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-10
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 11 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.6698035, step = 10
+INFO:tensorflow:Loss for final step: 0.6698035.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:38
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-11
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:39
+INFO:tensorflow:Saving dict for global step 11: accuracy = 0.8243, global_step = 11, loss = 0.65309495
+Akurasi: 82.42999911308289%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-11
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 12 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.74666584, step = 11
+INFO:tensorflow:Loss for final step: 0.74666584.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:41
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-12
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:41
+INFO:tensorflow:Saving dict for global step 12: accuracy = 0.8397, global_step = 12, loss = 0.56357056
+Akurasi: 83.96999835968018%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-12
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 13 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.5120429, step = 12
+INFO:tensorflow:Loss for final step: 0.5120429.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:43
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-13
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:44
+INFO:tensorflow:Saving dict for global step 13: accuracy = 0.8459, global_step = 13, loss = 0.5221531
+Akurasi: 84.58999991416931%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-13
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 14 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.5220206, step = 13
+INFO:tensorflow:Loss for final step: 0.5220206.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:45
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-14
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:46
+INFO:tensorflow:Saving dict for global step 14: accuracy = 0.8359, global_step = 14, loss = 0.5196873
+Akurasi: 83.59000086784363%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-14
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 15 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.54598343, step = 14
+INFO:tensorflow:Loss for final step: 0.54598343.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:48
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-15
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:48
+INFO:tensorflow:Saving dict for global step 15: accuracy = 0.846, global_step = 15, loss = 0.4916789
+Akurasi: 84.60000157356262%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-15
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 16 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.42619812, step = 15
+INFO:tensorflow:Loss for final step: 0.42619812.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:50
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-16
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:51
+INFO:tensorflow:Saving dict for global step 16: accuracy = 0.8734, global_step = 16, loss = 0.4374277
+Akurasi: 87.33999729156494%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-16
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 17 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.4620446, step = 16
+INFO:tensorflow:Loss for final step: 0.4620446.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:52
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-17
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:53
+INFO:tensorflow:Saving dict for global step 17: accuracy = 0.883, global_step = 17, loss = 0.400248
+Akurasi: 88.30000162124634%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-17
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 18 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.42561543, step = 17
+INFO:tensorflow:Loss for final step: 0.42561543.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:55
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-18
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:55
+INFO:tensorflow:Saving dict for global step 18: accuracy = 0.8893, global_step = 18, loss = 0.37847865
+Akurasi: 88.9299988746643%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-18
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 19 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.5409532, step = 18
+INFO:tensorflow:Loss for final step: 0.5409532.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:57
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-19
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:09:58
+INFO:tensorflow:Saving dict for global step 19: accuracy = 0.8972, global_step = 19, loss = 0.3585917
+Akurasi: 89.71999883651733%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-19
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 20 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.13980079, step = 19
+INFO:tensorflow:Loss for final step: 0.13980079.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:09:59
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-20
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:00
+INFO:tensorflow:Saving dict for global step 20: accuracy = 0.8954, global_step = 20, loss = 0.36742797
+Akurasi: 89.53999876976013%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-20
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 21 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.30541614, step = 20
+INFO:tensorflow:Loss for final step: 0.30541614.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:02
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-21
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:02
+INFO:tensorflow:Saving dict for global step 21: accuracy = 0.8964, global_step = 21, loss = 0.36162597
+Akurasi: 89.6399974822998%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-21
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 22 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.30640393, step = 21
+INFO:tensorflow:Loss for final step: 0.30640393.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:04
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-22
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:05
+INFO:tensorflow:Saving dict for global step 22: accuracy = 0.9034, global_step = 22, loss = 0.34442422
+Akurasi: 90.34000039100647%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-22
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 23 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.42329204, step = 22
+INFO:tensorflow:Loss for final step: 0.42329204.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:06
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-23
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:07
+INFO:tensorflow:Saving dict for global step 23: accuracy = 0.912, global_step = 23, loss = 0.31800103
+Akurasi: 91.20000004768372%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-23
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 24 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.26616493, step = 23
+INFO:tensorflow:Loss for final step: 0.26616493.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:09
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-24
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:09
+INFO:tensorflow:Saving dict for global step 24: accuracy = 0.9146, global_step = 24, loss = 0.31740004
+Akurasi: 91.46000146865845%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-24
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 25 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.44072804, step = 24
+INFO:tensorflow:Loss for final step: 0.44072804.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:11
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-25
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:12
+INFO:tensorflow:Saving dict for global step 25: accuracy = 0.9079, global_step = 25, loss = 0.3330522
+Akurasi: 90.78999757766724%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-25
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 26 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.4988508, step = 25
+INFO:tensorflow:Loss for final step: 0.4988508.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:13
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-26
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:14
+INFO:tensorflow:Saving dict for global step 26: accuracy = 0.9069, global_step = 26, loss = 0.33357722
+Akurasi: 90.68999886512756%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-26
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 27 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.3882796, step = 26
+INFO:tensorflow:Loss for final step: 0.3882796.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:16
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-27
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:16
+INFO:tensorflow:Saving dict for global step 27: accuracy = 0.9135, global_step = 27, loss = 0.31346294
+Akurasi: 91.35000109672546%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-27
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 28 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1722551, step = 27
+INFO:tensorflow:Loss for final step: 0.1722551.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:18
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-28
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:19
+INFO:tensorflow:Saving dict for global step 28: accuracy = 0.92, global_step = 28, loss = 0.29685685
+Akurasi: 92.00000166893005%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-28
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 29 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.3564183, step = 28
+INFO:tensorflow:Loss for final step: 0.3564183.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:21
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-29
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:21
+INFO:tensorflow:Saving dict for global step 29: accuracy = 0.9199, global_step = 29, loss = 0.2911857
+Akurasi: 91.99000000953674%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-29
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 30 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.25393257, step = 29
+INFO:tensorflow:Loss for final step: 0.25393257.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:23
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-30
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:24
+INFO:tensorflow:Saving dict for global step 30: accuracy = 0.914, global_step = 30, loss = 0.3085531
+Akurasi: 91.39999747276306%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-30
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 31 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.31029087, step = 30
+INFO:tensorflow:Loss for final step: 0.31029087.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:25
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-31
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:26
+INFO:tensorflow:Saving dict for global step 31: accuracy = 0.9169, global_step = 31, loss = 0.30025628
+Akurasi: 91.68999791145325%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-31
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 32 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.41117087, step = 31
+INFO:tensorflow:Loss for final step: 0.41117087.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:28
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-32
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:28
+INFO:tensorflow:Saving dict for global step 32: accuracy = 0.9197, global_step = 32, loss = 0.28815654
+Akurasi: 91.9700026512146%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-32
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 33 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.21521884, step = 32
+INFO:tensorflow:Loss for final step: 0.21521884.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:30
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-33
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:31
+INFO:tensorflow:Saving dict for global step 33: accuracy = 0.9237, global_step = 33, loss = 0.27209517
+Akurasi: 92.36999750137329%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-33
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 34 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.19629918, step = 33
+INFO:tensorflow:Loss for final step: 0.19629918.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:32
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-34
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:33
+INFO:tensorflow:Saving dict for global step 34: accuracy = 0.9267, global_step = 34, loss = 0.2619866
+Akurasi: 92.66999959945679%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-34
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 35 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.08407503, step = 34
+INFO:tensorflow:Loss for final step: 0.08407503.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:35
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-35
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:35
+INFO:tensorflow:Saving dict for global step 35: accuracy = 0.9268, global_step = 35, loss = 0.25911766
+Akurasi: 92.6800012588501%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-35
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 36 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.24294484, step = 35
+INFO:tensorflow:Loss for final step: 0.24294484.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:37
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-36
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:38
+INFO:tensorflow:Saving dict for global step 36: accuracy = 0.927, global_step = 36, loss = 0.24818264
+Akurasi: 92.69999861717224%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-36
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 37 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.22848731, step = 36
+INFO:tensorflow:Loss for final step: 0.22848731.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:39
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-37
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:40
+INFO:tensorflow:Saving dict for global step 37: accuracy = 0.9294, global_step = 37, loss = 0.24249135
+Akurasi: 92.94000267982483%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-37
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 38 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1825642, step = 37
+INFO:tensorflow:Loss for final step: 0.1825642.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:42
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-38
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:42
+INFO:tensorflow:Saving dict for global step 38: accuracy = 0.9317, global_step = 38, loss = 0.22917128
+Akurasi: 93.16999912261963%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-38
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 39 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.34425208, step = 38
+INFO:tensorflow:Loss for final step: 0.34425208.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:44
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-39
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:45
+INFO:tensorflow:Saving dict for global step 39: accuracy = 0.9337, global_step = 39, loss = 0.2195133
+Akurasi: 93.37000250816345%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-39
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 40 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.23358998, step = 39
+INFO:tensorflow:Loss for final step: 0.23358998.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:46
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-40
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:47
+INFO:tensorflow:Saving dict for global step 40: accuracy = 0.935, global_step = 40, loss = 0.21217108
+Akurasi: 93.50000023841858%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-40
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 41 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.23735988, step = 40
+INFO:tensorflow:Loss for final step: 0.23735988.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:49
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-41
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:49
+INFO:tensorflow:Saving dict for global step 41: accuracy = 0.9401, global_step = 41, loss = 0.20556276
+Akurasi: 94.01000142097473%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-41
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 42 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.21335265, step = 41
+INFO:tensorflow:Loss for final step: 0.21335265.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:51
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-42
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:52
+INFO:tensorflow:Saving dict for global step 42: accuracy = 0.9434, global_step = 42, loss = 0.19711219
+Akurasi: 94.34000253677368%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-42
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 43 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.30330274, step = 42
+INFO:tensorflow:Loss for final step: 0.30330274.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:53
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-43
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:54
+INFO:tensorflow:Saving dict for global step 43: accuracy = 0.9461, global_step = 43, loss = 0.19869854
+Akurasi: 94.60999965667725%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-43
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 44 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.102825485, step = 43
+INFO:tensorflow:Loss for final step: 0.102825485.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:56
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-44
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:57
+INFO:tensorflow:Saving dict for global step 44: accuracy = 0.9434, global_step = 44, loss = 0.20797741
+Akurasi: 94.34000253677368%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-44
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 45 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.2540989, step = 44
+INFO:tensorflow:Loss for final step: 0.2540989.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:10:58
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-45
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:10:59
+INFO:tensorflow:Saving dict for global step 45: accuracy = 0.943, global_step = 45, loss = 0.21340339
+Akurasi: 94.30000185966492%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-45
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 46 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.10403977, step = 45
+INFO:tensorflow:Loss for final step: 0.10403977.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:01
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-46
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:01
+INFO:tensorflow:Saving dict for global step 46: accuracy = 0.9436, global_step = 46, loss = 0.21006817
+Akurasi: 94.35999989509583%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-46
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 47 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.11707536, step = 46
+INFO:tensorflow:Loss for final step: 0.11707536.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:03
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-47
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:04
+INFO:tensorflow:Saving dict for global step 47: accuracy = 0.9451, global_step = 47, loss = 0.20886794
+Akurasi: 94.51000094413757%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-47
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 48 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.36010474, step = 47
+INFO:tensorflow:Loss for final step: 0.36010474.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:05
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-48
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:06
+INFO:tensorflow:Saving dict for global step 48: accuracy = 0.945, global_step = 48, loss = 0.20316711
+Akurasi: 94.49999928474426%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-48
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 49 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.30486935, step = 48
+INFO:tensorflow:Loss for final step: 0.30486935.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:08
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-49
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:08
+INFO:tensorflow:Saving dict for global step 49: accuracy = 0.9477, global_step = 49, loss = 0.19192846
+Akurasi: 94.7700023651123%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-49
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 50 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.2206735, step = 49
+INFO:tensorflow:Loss for final step: 0.2206735.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:10
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-50
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:11
+INFO:tensorflow:Saving dict for global step 50: accuracy = 0.9486, global_step = 50, loss = 0.18447208
+Akurasi: 94.85999941825867%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-50
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 51 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.25802505, step = 50
+INFO:tensorflow:Loss for final step: 0.25802505.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:12
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-51
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:13
+INFO:tensorflow:Saving dict for global step 51: accuracy = 0.9452, global_step = 51, loss = 0.19277838
+Akurasi: 94.52000260353088%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-51
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 52 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.15640923, step = 51
+INFO:tensorflow:Loss for final step: 0.15640923.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:15
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-52
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:15
+INFO:tensorflow:Saving dict for global step 52: accuracy = 0.9411, global_step = 52, loss = 0.19864953
+Akurasi: 94.1100001335144%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-52
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 53 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1730067, step = 52
+INFO:tensorflow:Loss for final step: 0.1730067.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:17
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-53
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:18
+INFO:tensorflow:Saving dict for global step 53: accuracy = 0.9409, global_step = 53, loss = 0.19775596
+Akurasi: 94.09000277519226%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-53
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 54 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.19687045, step = 53
+INFO:tensorflow:Loss for final step: 0.19687045.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:19
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-54
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:20
+INFO:tensorflow:Saving dict for global step 54: accuracy = 0.9432, global_step = 54, loss = 0.19507118
+Akurasi: 94.31999921798706%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-54
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 55 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.25202549, step = 54
+INFO:tensorflow:Loss for final step: 0.25202549.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:22
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-55
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:22
+INFO:tensorflow:Saving dict for global step 55: accuracy = 0.9479, global_step = 55, loss = 0.1795411
+Akurasi: 94.78999972343445%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-55
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 56 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.13420057, step = 55
+INFO:tensorflow:Loss for final step: 0.13420057.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:24
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-56
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:25
+INFO:tensorflow:Saving dict for global step 56: accuracy = 0.9518, global_step = 56, loss = 0.16747653
+Akurasi: 95.1799988746643%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-56
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 57 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.23339643, step = 56
+INFO:tensorflow:Loss for final step: 0.23339643.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:27
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-57
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:27
+INFO:tensorflow:Saving dict for global step 57: accuracy = 0.9537, global_step = 57, loss = 0.1594362
+Akurasi: 95.37000060081482%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-57
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 58 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.24643074, step = 57
+INFO:tensorflow:Loss for final step: 0.24643074.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:29
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-58
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:30
+INFO:tensorflow:Saving dict for global step 58: accuracy = 0.9551, global_step = 58, loss = 0.15619801
+Akurasi: 95.50999999046326%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-58
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 59 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.11427796, step = 58
+INFO:tensorflow:Loss for final step: 0.11427796.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:31
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-59
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:32
+INFO:tensorflow:Saving dict for global step 59: accuracy = 0.9549, global_step = 59, loss = 0.15902732
+Akurasi: 95.49000263214111%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-59
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 60 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.112073004, step = 59
+INFO:tensorflow:Loss for final step: 0.112073004.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:34
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-60
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:34
+INFO:tensorflow:Saving dict for global step 60: accuracy = 0.954, global_step = 60, loss = 0.16460866
+Akurasi: 95.39999961853027%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-60
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 61 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.098742805, step = 60
+INFO:tensorflow:Loss for final step: 0.098742805.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:36
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-61
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:37
+INFO:tensorflow:Saving dict for global step 61: accuracy = 0.9524, global_step = 61, loss = 0.16806908
+Akurasi: 95.24000287055969%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-61
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 62 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.15799862, step = 61
+INFO:tensorflow:Loss for final step: 0.15799862.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:38
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-62
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:39
+INFO:tensorflow:Saving dict for global step 62: accuracy = 0.9526, global_step = 62, loss = 0.1700353
+Akurasi: 95.26000022888184%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-62
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 63 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.0811747, step = 62
+INFO:tensorflow:Loss for final step: 0.0811747.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:41
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-63
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:41
+INFO:tensorflow:Saving dict for global step 63: accuracy = 0.9529, global_step = 63, loss = 0.16406104
+Akurasi: 95.28999924659729%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-63
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 64 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.06872945, step = 63
+INFO:tensorflow:Loss for final step: 0.06872945.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:43
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-64
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:44
+INFO:tensorflow:Saving dict for global step 64: accuracy = 0.9557, global_step = 64, loss = 0.15908712
+Akurasi: 95.56999802589417%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-64
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 65 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.15663853, step = 64
+INFO:tensorflow:Loss for final step: 0.15663853.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:45
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-65
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:46
+INFO:tensorflow:Saving dict for global step 65: accuracy = 0.9577, global_step = 65, loss = 0.15315619
+Akurasi: 95.77000141143799%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-65
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 66 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1431082, step = 65
+INFO:tensorflow:Loss for final step: 0.1431082.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:48
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-66
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:48
+INFO:tensorflow:Saving dict for global step 66: accuracy = 0.9599, global_step = 66, loss = 0.14655155
+Akurasi: 95.99000215530396%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-66
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 67 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.20667502, step = 66
+INFO:tensorflow:Loss for final step: 0.20667502.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:50
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-67
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:51
+INFO:tensorflow:Saving dict for global step 67: accuracy = 0.9588, global_step = 67, loss = 0.14569655
+Akurasi: 95.88000178337097%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-67
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 68 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.12587479, step = 67
+INFO:tensorflow:Loss for final step: 0.12587479.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:52
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-68
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:53
+INFO:tensorflow:Saving dict for global step 68: accuracy = 0.9579, global_step = 68, loss = 0.14356855
+Akurasi: 95.78999876976013%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-68
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 69 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.121822864, step = 68
+INFO:tensorflow:Loss for final step: 0.121822864.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:55
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-69
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:56
+INFO:tensorflow:Saving dict for global step 69: accuracy = 0.9569, global_step = 69, loss = 0.14251557
+Akurasi: 95.69000005722046%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-69
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 70 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.32593173, step = 69
+INFO:tensorflow:Loss for final step: 0.32593173.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:11:57
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-70
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:11:58
+INFO:tensorflow:Saving dict for global step 70: accuracy = 0.9571, global_step = 70, loss = 0.14215352
+Akurasi: 95.7099974155426%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-70
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 71 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.18659222, step = 70
+INFO:tensorflow:Loss for final step: 0.18659222.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:00
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-71
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:00
+INFO:tensorflow:Saving dict for global step 71: accuracy = 0.9571, global_step = 71, loss = 0.14250574
+Akurasi: 95.7099974155426%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-71
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 72 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.044092856, step = 71
+INFO:tensorflow:Loss for final step: 0.044092856.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:02
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-72
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:03
+INFO:tensorflow:Saving dict for global step 72: accuracy = 0.9551, global_step = 72, loss = 0.14802687
+Akurasi: 95.50999999046326%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-72
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 73 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.23022805, step = 72
+INFO:tensorflow:Loss for final step: 0.23022805.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:04
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-73
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:05
+INFO:tensorflow:Saving dict for global step 73: accuracy = 0.9562, global_step = 73, loss = 0.1446824
+Akurasi: 95.62000036239624%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-73
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 74 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.3225483, step = 73
+INFO:tensorflow:Loss for final step: 0.3225483.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:07
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-74
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:07
+INFO:tensorflow:Saving dict for global step 74: accuracy = 0.9583, global_step = 74, loss = 0.141063
+Akurasi: 95.8299994468689%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-74
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 75 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.16181941, step = 74
+INFO:tensorflow:Loss for final step: 0.16181941.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:09
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-75
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:10
+INFO:tensorflow:Saving dict for global step 75: accuracy = 0.9597, global_step = 75, loss = 0.13405213
+Akurasi: 95.96999883651733%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-75
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 76 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.19689547, step = 75
+INFO:tensorflow:Loss for final step: 0.19689547.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:11
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-76
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:12
+INFO:tensorflow:Saving dict for global step 76: accuracy = 0.9598, global_step = 76, loss = 0.13101396
+Akurasi: 95.98000049591064%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-76
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 77 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.19659835, step = 76
+INFO:tensorflow:Loss for final step: 0.19659835.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:14
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-77
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:15
+INFO:tensorflow:Saving dict for global step 77: accuracy = 0.9588, global_step = 77, loss = 0.13353771
+Akurasi: 95.88000178337097%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-77
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 78 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.07783423, step = 77
+INFO:tensorflow:Loss for final step: 0.07783423.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:16
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-78
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:17
+INFO:tensorflow:Saving dict for global step 78: accuracy = 0.9581, global_step = 78, loss = 0.13955978
+Akurasi: 95.81000208854675%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-78
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 79 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.098200805, step = 78
+INFO:tensorflow:Loss for final step: 0.098200805.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:19
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-79
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:19
+INFO:tensorflow:Saving dict for global step 79: accuracy = 0.9567, global_step = 79, loss = 0.14464861
+Akurasi: 95.67000269889832%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-79
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 80 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.13197654, step = 79
+INFO:tensorflow:Loss for final step: 0.13197654.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:21
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-80
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:22
+INFO:tensorflow:Saving dict for global step 80: accuracy = 0.9558, global_step = 80, loss = 0.14431097
+Akurasi: 95.57999968528748%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-80
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 81 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.2631294, step = 80
+INFO:tensorflow:Loss for final step: 0.2631294.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:23
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-81
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:24
+INFO:tensorflow:Saving dict for global step 81: accuracy = 0.9565, global_step = 81, loss = 0.13908677
+Akurasi: 95.6499993801117%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-81
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 82 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.15470813, step = 81
+INFO:tensorflow:Loss for final step: 0.15470813.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:26
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-82
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:26
+INFO:tensorflow:Saving dict for global step 82: accuracy = 0.9584, global_step = 82, loss = 0.13494657
+Akurasi: 95.8400011062622%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-82
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 83 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1361834, step = 82
+INFO:tensorflow:Loss for final step: 0.1361834.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:28
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-83
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:29
+INFO:tensorflow:Saving dict for global step 83: accuracy = 0.9586, global_step = 83, loss = 0.1348524
+Akurasi: 95.85999846458435%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-83
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 84 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.17887723, step = 83
+INFO:tensorflow:Loss for final step: 0.17887723.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:30
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-84
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:31
+INFO:tensorflow:Saving dict for global step 84: accuracy = 0.9604, global_step = 84, loss = 0.13110425
+Akurasi: 96.03999853134155%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-84
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 85 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.10216456, step = 84
+INFO:tensorflow:Loss for final step: 0.10216456.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:33
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-85
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:33
+INFO:tensorflow:Saving dict for global step 85: accuracy = 0.9603, global_step = 85, loss = 0.12789892
+Akurasi: 96.03000283241272%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-85
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 86 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.15960488, step = 85
+INFO:tensorflow:Loss for final step: 0.15960488.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:35
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-86
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:36
+INFO:tensorflow:Saving dict for global step 86: accuracy = 0.9605, global_step = 86, loss = 0.12684368
+Akurasi: 96.05000019073486%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-86
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 87 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1242971, step = 86
+INFO:tensorflow:Loss for final step: 0.1242971.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:37
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-87
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:38
+INFO:tensorflow:Saving dict for global step 87: accuracy = 0.963, global_step = 87, loss = 0.12277836
+Akurasi: 96.29999995231628%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-87
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 88 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1125513, step = 87
+INFO:tensorflow:Loss for final step: 0.1125513.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:40
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-88
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:40
+INFO:tensorflow:Saving dict for global step 88: accuracy = 0.9639, global_step = 88, loss = 0.11986382
+Akurasi: 96.39000296592712%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-88
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 89 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.07290859, step = 88
+INFO:tensorflow:Loss for final step: 0.07290859.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:42
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-89
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:43
+INFO:tensorflow:Saving dict for global step 89: accuracy = 0.9642, global_step = 89, loss = 0.12014197
+Akurasi: 96.42000198364258%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-89
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 90 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.2207383, step = 89
+INFO:tensorflow:Loss for final step: 0.2207383.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:45
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-90
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:45
+INFO:tensorflow:Saving dict for global step 90: accuracy = 0.9633, global_step = 90, loss = 0.12326388
+Akurasi: 96.32999897003174%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-90
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 91 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.15609853, step = 90
+INFO:tensorflow:Loss for final step: 0.15609853.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:47
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-91
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:48
+INFO:tensorflow:Saving dict for global step 91: accuracy = 0.9639, global_step = 91, loss = 0.12393139
+Akurasi: 96.39000296592712%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-91
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 92 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.117694855, step = 91
+INFO:tensorflow:Loss for final step: 0.117694855.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:49
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-92
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:50
+INFO:tensorflow:Saving dict for global step 92: accuracy = 0.9635, global_step = 92, loss = 0.12432411
+Akurasi: 96.35000228881836%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-92
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 93 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.13223329, step = 92
+INFO:tensorflow:Loss for final step: 0.13223329.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:52
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-93
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:52
+INFO:tensorflow:Saving dict for global step 93: accuracy = 0.9658, global_step = 93, loss = 0.116710775
+Akurasi: 96.57999873161316%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-93
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 94 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.057915013, step = 93
+INFO:tensorflow:Loss for final step: 0.057915013.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:54
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-94
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:55
+INFO:tensorflow:Saving dict for global step 94: accuracy = 0.9683, global_step = 94, loss = 0.11093602
+Akurasi: 96.82999849319458%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-94
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 95 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.118382685, step = 94
+INFO:tensorflow:Loss for final step: 0.118382685.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:56
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-95
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:57
+INFO:tensorflow:Saving dict for global step 95: accuracy = 0.9683, global_step = 95, loss = 0.1099575
+Akurasi: 96.82999849319458%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-95
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 96 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.062008515, step = 95
+INFO:tensorflow:Loss for final step: 0.062008515.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:12:59
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-96
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:12:59
+INFO:tensorflow:Saving dict for global step 96: accuracy = 0.9665, global_step = 96, loss = 0.11316367
+Akurasi: 96.64999842643738%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-96
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 97 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.14524515, step = 96
+INFO:tensorflow:Loss for final step: 0.14524515.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:13:01
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-97
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:13:02
+INFO:tensorflow:Saving dict for global step 97: accuracy = 0.963, global_step = 97, loss = 0.11929016
+Akurasi: 96.29999995231628%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-97
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 98 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.1789742, step = 97
+INFO:tensorflow:Loss for final step: 0.1789742.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:13:03
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-98
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:13:04
+INFO:tensorflow:Saving dict for global step 98: accuracy = 0.9623, global_step = 98, loss = 0.1227878
+Akurasi: 96.23000025749207%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-98
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 99 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.062302113, step = 98
+INFO:tensorflow:Loss for final step: 0.062302113.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:13:06
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-99
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:13:06
+INFO:tensorflow:Saving dict for global step 99: accuracy = 0.9637, global_step = 99, loss = 0.119052164
+Akurasi: 96.3699996471405%
+
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Create CheckpointSaverHook.
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-99
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Saving checkpoints for 100 into /tmp/tmpsapex9g2/model.ckpt.
+INFO:tensorflow:loss = 0.12443134, step = 99
+INFO:tensorflow:Loss for final step: 0.12443134.
+INFO:tensorflow:Calling model_fn.
+INFO:tensorflow:Done calling model_fn.
+INFO:tensorflow:Starting evaluation at 2018-06-08-16:13:08
+INFO:tensorflow:Graph was finalized.
+INFO:tensorflow:Restoring parameters from /tmp/tmpsapex9g2/model.ckpt-100
+INFO:tensorflow:Running local_init_op.
+INFO:tensorflow:Done running local_init_op.
+INFO:tensorflow:Finished evaluation at 2018-06-08-16:13:09
+INFO:tensorflow:Saving dict for global step 100: accuracy = 0.9622, global_step = 100, loss = 0.1160347
+Akurasi: 96.21999859809875%
